@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+ }
+.container ,.sub,.product{
+    width: 90%;
+    margin: 5px auto;
+    /* border: 3px solid black; */
+}
+.thspan{
+    color: rgb(88, 88, 255);
+}
+a{
+    text-decoration: none;
+}
+.nav-holder{
+    padding: 3px 3px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    /* border: 3px solid black; */
+}
+.titleholder{
+    font-weight: 550;
+    font-size: x-large;
+    color: black;
+    margin-left: 10px;
+}
+.nav-holder a , .onboard a{
+    padding-left: 10px;
+}
+
+/* Header */
+
+.headercontainer{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container-content{
+    padding-top: 5rem;
+}
+.container-content h4{
+    margin-left: 35px;
+    font-size: 67px;
+    width: 90%;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-content p{
+    padding: 10px;
+    padding-left: 65px;
+    text-align: center;
+    width: 60%;
+    margin-left: 12rem;
+    justify-content: center;
+    /* letter-spacing: 2px; */
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(6, 24, 48);
+    color: #fff;
+    border-radius: 5px;
+}
+.header-btn{
+    align-items: center;
+    margin-left: 43%;
+    background-color:rgb(40, 40, 224);
+    border-radius: 15px;
+}
+.btn-signup{
+    padding: 5px 10px;
+    background-color:rgb(40, 40, 224);
+    color: #fff;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 20px;
+}
+.img-card{
+    display: flex;
+    justify-content: space-between;
+}
+.img-card-content{
+    margin: 0 10px;
+    width: 23rem;
+    height: 13rem;
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img1{
+    background-image: url(/image/1.jpg);
+}
+.img2{
+    background-image: url(/image/2.jpg);
+}
+.img3{
+    background-image: url(/image/3.jpg);
+}
+.analystics{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 40px;
+}
+.analy-count{
+    display: inline-block;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+.analy-count h1{
+    font-size: 3rem;
+    font-weight: 540;
+}
+
+/* Product section */
+.product-holder{
+    background-color: aliceblue;
+    width: 100%;
+    padding-bottom: 5rem;
+}
+.pheader{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: rgb(40, 40, 224);
+    font-weight: 500;
+    font-size: large;
+}
+.ptext{
+    width: 70%;
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+.aside-h{
+    padding-bottom: 7px;
+}
+.aside-t{
+    width: 90%;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.pp{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.aside{
+    width: 60%;
+    padding-bottom: 10%;
+    padding-right: 40px;
+}
+.avid{
+    width: 40%;
+}
+.vid{
+    border-radius: 5px;
+}
+.aside li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+.aside hr{
+    width: 70%;
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    height: 10rem;
+    justify-items: center;
+    background-color: rgb(35, 35, 216);
+    border-radius: 0.5rem;
+}
+.sub-header{
+    width: 60%;
+    padding: 3rem 5rem;
+    font-size: 2rem;
+    color: #fff;
+}
+.subbtn{
+    padding-left: 12rem;
+}
+.sub-btn{
+    margin: 4rem 3rem;
+    height: 2rem;
+    width: 100px;
+    border-radius: 0.9rem;
+}
+.Uv-footer{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.Uv-footer-content{
+    width: 100%;
+    display: flex;
+    padding: 0 10rem;
+    justify-content: center;
+    justify-items: center;
+}
+.Uv-footer-content p{
+    padding-left: 0.3rem;
+    font-weight: 500px;
+    font-size: 18px;
+}
+.footer-name{
+    color: blue;
+}
